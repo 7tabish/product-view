@@ -7,6 +7,9 @@ import FeatureIcons from './overview/featureIcons'
 //detail
 import MinorDetails from './productMinorDetails/minorDetails'
 
+//detail description
+import Description from './productFullDetails/description'
+
 export default () => {
     return (
         <>
@@ -25,6 +28,7 @@ export default () => {
             <div className="row">
             <section className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
                 <FeatureIcons />
+                <Description />
             </section>
             
             </div>
