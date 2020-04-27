@@ -9,7 +9,8 @@ let flexStyle = {
 }
 
 let textStyle = {
-    color:'#414543'
+    color: '#414543',
+    marginTop:1
 }
 
 export default () => {
