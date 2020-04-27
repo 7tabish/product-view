@@ -7,7 +7,7 @@ import ProductPageView from './components/productViewPage/index'
 
 function App() {
   return (
-    <div className="App container-fluid p-3">
+    <div className="App container-fluid">
       <ProductPageView />
     </div>
   );

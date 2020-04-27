@@ -1,18 +1,21 @@
 import React from 'react'
 
-//css
-import '../../util/main.css'
+import ImageSlider from './imgView/imgSlider'
+import HorizontalSlider from './imgView/HorizontalSlider'
 
-//letView
-import LeftView from './leftView/index'
+import MinorDetails from './productMinorDetails/minorDetails'
 
-export default () => (
-    <div className="grid-Container">
-        <section className="leftView">
-            <LeftView />
-        </section>
-
-        <section className="rightView">
-        </section>
-    </div>
-)
+export default () => {
+    return (
+        <div className="row">
+            <section className="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+                <ImageSlider />
+                <HorizontalSlider />
+            </section>
+            
+            <section className="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <MinorDetails />
+            </section>
+        </div>
+    )
+}

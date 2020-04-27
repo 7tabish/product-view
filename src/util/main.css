@@ -1,36 +1,17 @@
-/* main product view page index.js CSS Script */
 
-.grid-Container{
-    display: grid;
-    height: 100vh;
-    grid-template-columns: 2fr 1.3fr;
+/* productViewPage imgView horizontal Slider CSS Script */
 
-    background-color: blue;
-}
-
-.grid-Container .leftView{
-    background-color: blueviolet;
-}
-
-.grid-Container .rightView{
-    background-color: rgb(50, 40, 59);
-}
-
-
-/* leftView imgView horizontal Slider CSS Script */
-
-.leftView .imgView .HorizontalSlider .flex-container {
+.productViewPage .imgView .HorizontalSlider .flex-container {
 	overflow-x: scroll;
-    white-space: nowrap;
-    display: inline-block;
+	white-space: nowrap;
 }
-.leftView .imgView .HorizontalSlider .flex-container::-webkit-scrollbar{
+.productViewPage .imgView .HorizontalSlider .flex-container::-webkit-scrollbar{
     display: none;
 }
 
-.leftView .imgView .HorizontalSlider .box {
+.productViewPage .imgView .HorizontalSlider .box {
 	display: inline-block;
-	border: 1px solid white;
+	border: 1px solid black;
 	margin: 5px;
 	height: 70px;
     width: 70px;
